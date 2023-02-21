@@ -17,9 +17,8 @@ export default function Matirisl() {
     return (
         <div>
             <Checkbox {...label} defaultChecked />
-            <Checkbox {...label} />
-            <Checkbox {...label} disabled />
-            <Checkbox {...label} disabled checked />
+            <Checkbox {...label} /><br/>
+          
             <FormControl>
                 <FormLabel id="demo-radio-buttons-group-label">Gender</FormLabel>
                 <RadioGroup
@@ -30,9 +29,9 @@ export default function Matirisl() {
                     <FormControlLabel value="male" control={<Radio />} label="Male" />
                     <FormControlLabel value="other" control={<Radio />} label="Other" />
                 </RadioGroup>
-            </FormControl>
+            </FormControl><br/>
             <Switch {...label} defaultChecked />
-            <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+            <Avatar alt="Darshit" src="/Image/item-1.jpeg" />
             <Stack sx={{ width: '100%' }} spacing={2}>
                 <Alert severity="error">
                     <AlertTitle>Error</AlertTitle>
@@ -54,3 +53,4 @@ export default function Matirisl() {
         </div>
     );
 }
+
