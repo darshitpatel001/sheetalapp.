@@ -48,6 +48,7 @@ function App() {
         <Route path="/productlist" element={<RequireAuth><Product /></RequireAuth>} />
       </Routes>
     </BrowserRouter> */}
+    
       <BrowserRouter>
       <Headersw3 />
       <Routes>
@@ -66,7 +67,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-    
+
   <Provider store={StoreTool}>
       {/* <Counter/>
       <MainUser /> */}
