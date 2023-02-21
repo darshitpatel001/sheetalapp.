@@ -31,7 +31,7 @@ export default function Matirisl() {
                 </RadioGroup>
             </FormControl><br/>
             <Switch {...label} defaultChecked />
-            <Avatar alt="Darshit" src="/Image/item-1.jpeg" />
+            <Avatar alt="Darshit" src="/static/images/avatar/1.jpg" />
             <Stack sx={{ width: '100%' }} spacing={2}>
                 <Alert severity="error">
                     <AlertTitle>Error</AlertTitle>
@@ -53,4 +53,11 @@ export default function Matirisl() {
         </div>
     );
 }
-
+Error
+This is an error alert — check it out!
+Warning
+This is a warning alert — check it out!
+Info
+This is an info alert — check it out!
+Success
+This is a success alert — check it out!
