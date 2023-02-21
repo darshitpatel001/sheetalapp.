@@ -130,14 +130,14 @@ root.render(
     {/* <Audio /> */}
     {/* -----------------------router------------------------- */}
     <BrowserRouter>
-      {/* <Header />
+      <Header />
       <Routes>
         <Route path="/" element={<Homee />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
       </Routes>
-      <Footer /> */}
+      <Footer />
 
       {/* =======================hoc========================== */}
       {/* <Suspense fallback={<h2>Loading...</h2>}>
@@ -153,7 +153,7 @@ root.render(
     {/* <CounterUsE /> */}
 
     {/* <Myreducer/> */}
-    <App/>
+    {/* <App/> */}
     {/* <Inquiry /> */}
     {/* --------------------------------error---------------------- */}
     {/* <ErrorBoundary FallbackComponent={ErrorFallback} >

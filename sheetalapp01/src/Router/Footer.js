@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
      <div>
-      <div class="container bg-light">
+      <div class="container-fluid bg-black">
         <div className='row'>
           <div className='col-sm-3'>
             <h2>Hello</h2>

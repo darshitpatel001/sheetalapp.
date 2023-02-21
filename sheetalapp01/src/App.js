@@ -48,26 +48,24 @@ function App() {
         <Route path="/productlist" element={<RequireAuth><Product /></RequireAuth>} />
       </Routes>
     </BrowserRouter> */}
-    
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <Headersw3 />
       <Routes>
         <Route path='/' element={<Homew3 />}>CSS</Route>
         <Route path='/html' element={<Html />}>
-          <Route path='' element={<Html1 />} />
-          <Route path='' element={<Html2 />} />
+          <Route path='html1' element={<Html1 />} />
+          <Route path='html2' element={<Html2 />} />
         </Route>
         <Route path='/css' element={<Css />}>
-          <Route path='' element={<Css1 />} />
-          <Route path='' element={<Css2 />} />
+          <Route path='css1' element={<Css1 />} />
+          <Route path='css2' element={<Css2 />} />
         </Route>
         <Route path='/Javascript' element={<Javascript />}>
-          <Route path='' element={<Js1 />} />
-          <Route path='' element={<Js2 />} />
+          <Route path='js1' element={<Js1 />} />
+          <Route path='js2' element={<Js2 />} />
         </Route>
       </Routes>
-    </BrowserRouter>
-
+    </BrowserRouter> */}
   <Provider store={StoreTool}>
       {/* <Counter/>
       <MainUser /> */}
@@ -81,7 +79,7 @@ function App() {
       {/* <Provider store={StoreProduct}>
        <Product />
        </Provider> */}
-      {/* <h1>Darshit Akbari</h1> */}
+      <h1>Darshit Akbari</h1>
     </div>
   );
 }
