@@ -53,11 +53,3 @@ export default function Matirisl() {
         </div>
     );
 }
-Error
-This is an error alert — check it out!
-Warning
-This is a warning alert — check it out!
-Info
-This is an info alert — check it out!
-Success
-This is a success alert — check it out!
