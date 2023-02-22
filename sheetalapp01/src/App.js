@@ -70,7 +70,7 @@ function App() {
       {/* <Counter/>
       <MainUser /> */}
       <CounterSaga />
-      {/* <MyPost/> */}
+      <MyPost/>
       {/* <Myredux1 />
       <Myredux2 />
       <Myredux3 /> */}
