@@ -10,7 +10,7 @@ export default function CounterSaga() {
     const increment = () => {
         disp({type:'INCREMENT'});
     }
-
+    
     const Multi = () => {
         disp({type:'MULTIPLECATION'});
     }
