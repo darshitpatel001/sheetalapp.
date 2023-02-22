@@ -1,5 +1,6 @@
 import { connect } from 'react-redux'
 import React from 'react'
+import { number } from 'yup'
 
 const mapStateToProps = (state) => {
     return {
@@ -21,3 +22,4 @@ function Myredux1({count,dispatch}) {
 }
 
 export default connect(mapStateToProps)(Myredux1);
+
