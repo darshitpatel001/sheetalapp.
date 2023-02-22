@@ -154,7 +154,7 @@ root.render(
     {/* <CounterUsE /> */}
 
     {/* <Myreducer/> */}
-    {/* <App/> */}
+    <App/>
     {/* <Inquiry /> */}
     {/* --------------------------------error---------------------- */}
     {/* <ErrorBoundary FallbackComponent={ErrorFallback} >
@@ -172,7 +172,7 @@ root.render(
     {/* <Leval3Form /> */}
     {/* <ApiDelete /> */}
     {/* <Registration /> */}
-    <Matirisl />
+    {/* <Matirisl /> */}
   </React.StrictMode>
 );
 

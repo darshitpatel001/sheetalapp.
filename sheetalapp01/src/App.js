@@ -23,7 +23,7 @@ import Js1 from "./Route/Js1";
 import Js2 from "./Route/Js2";
 import { Provider } from "react-redux";
 import Counter from "./Thunk/Counter";
-// import store from "./Thunk/Store/Store";
+import store from "./Thunk/Store/Store";
 import MainUser from "./Thunk/Store/MainUser";
 import CounterSaga from "./Thunk/CounterSaga";
 import MyPost from "./Thunk/MyPost";
@@ -66,14 +66,14 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter> */}
-  <Provider store={StoreTool}>
+  <Provider store={store}>
       {/* <Counter/>
       <MainUser /> */}
       {/* <CounterSaga /> */}
       {/* <MyPost/> */}
-      {/* <Myredux1 />
+      <Myredux1 />
       <Myredux2 />
-      <Myredux3 /> */}
+      <Myredux3 />
      {/* <CounterTool /> */}
      </Provider>
       {/* <Provider store={StoreProduct}>
