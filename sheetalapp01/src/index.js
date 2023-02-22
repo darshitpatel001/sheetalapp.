@@ -113,7 +113,7 @@ root.render(
     {/* <MyClass /> */}
     {/* <Apipost /> */}
     <ToastContainer /> 
-    {/* <Login /> */}
+    <Login />
     {/* <Apipost1 /> */}
     {/* <Apipost2 /> */}
     {/* <Apipostprect /> */}
@@ -154,7 +154,7 @@ root.render(
     {/* <CounterUsE /> */}
 
     {/* <Myreducer/> */}
-    <App/>
+    {/* <App/> */}
     {/* <Inquiry /> */}
     {/* --------------------------------error---------------------- */}
     {/* <ErrorBoundary FallbackComponent={ErrorFallback} >

@@ -69,8 +69,8 @@ function App() {
   <Provider store={store}>
       {/* <Counter/>
       <MainUser /> */}
-      <CounterSaga />
-      <MyPost/>
+      {/* <CounterSaga /> */}
+      {/* <MyPost/> */}
       {/* <Myredux1 />
       <Myredux2 />
       <Myredux3 /> */}
