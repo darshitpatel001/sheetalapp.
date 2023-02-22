@@ -18,6 +18,7 @@ export default function CounterSaga() {
     const devision = () => {
         disp({type:'DEVISION'});
     }
+    
   return (
     <div>
         {count}
