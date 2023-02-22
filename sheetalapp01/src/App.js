@@ -69,17 +69,17 @@ function App() {
   <Provider store={store}>
       {/* <Counter/>
       <MainUser /> */}
-      {/* <CounterSaga /> */}
+      <CounterSaga />
       {/* <MyPost/> */}
-      <Myredux1 />
+      {/* <Myredux1 />
       <Myredux2 />
-      <Myredux3 />
+      <Myredux3 /> */}
      {/* <CounterTool /> */}
      </Provider>
       {/* <Provider store={StoreProduct}>
        <Product />
        </Provider> */}
-      <h1>Darshit Akbari</h1>
+      {/* <h1>Darshit Akbari</h1> */}
     </div>
   );
 }
