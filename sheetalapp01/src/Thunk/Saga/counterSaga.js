@@ -9,13 +9,11 @@ export function* incWorker() {
     yield takeEvery('INCREMENT', incWorker);
   }
 
-
   export function* multiplication() {
     yield delay(1000);
     yield put({ type: 'MULTI' });
   }
   
- 
   export function* multiplicationWatcher() {
     yield takeEvery('MULTIPLECATION', multiplication);
   }
