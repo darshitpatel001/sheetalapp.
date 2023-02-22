@@ -13,6 +13,7 @@ function Myredux1({count,dispatch}) {
     const increment =()=>{
         dispatch({type : 'INCREMENT'})
     }
+    
   return (
     <div>
         {count}
