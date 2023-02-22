@@ -22,4 +22,4 @@ function Myredux1({count,dispatch}) {
 }
 
 export default connect(mapStateToProps)(Myredux1);
-man
+
