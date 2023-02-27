@@ -36,7 +36,7 @@ export default function Apipost1() {
           <label htmlFor="" class="form-label"> Body: </label>
           <Field type="body" class="form-control" name="body" /><br />
 
-          <input type="submit" value="submit" />
+          <input type="submit" className='form-control btn btn-outline-primary' value="submit" />
         </Form>
 
       </Formik>
