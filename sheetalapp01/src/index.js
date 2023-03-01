@@ -117,7 +117,7 @@ root.render(
     <Apipost1 />
     {/* <Apipost2 /> */}
     {/* <Apipostprect /> */}
-    {/* <ApiPrecti1 /> */}''
+    {/* <ApiPrecti1 /> */}
     {/* ---------------------------mul ui---------------------------------------------- */}
     {/* <MyForm /> */}
     {/* <UiForm /> */}
